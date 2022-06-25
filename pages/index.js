@@ -1,8 +1,10 @@
+import Landing from "../components/Landing";
+
 function HomePage() {
     return(
-        <div>
-            Home page
-        </div>
+        <>
+                <Landing />
+        </>
     )
 }
 
