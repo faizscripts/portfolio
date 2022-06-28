@@ -1,5 +1,4 @@
 import {useEffect, useRef} from "react";
-import styles from "../../styles/Hero.module.scss"
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faMobileScreenButton} from "@fortawesome/free-solid-svg-icons";
 import {faEnvelope} from "@fortawesome/free-solid-svg-icons";
@@ -36,35 +35,35 @@ function HeroContacts() {
     })
 
     return (
-        <div id={styles.contact}>
+        <div id="contact">
             <a href="tel:+254705063256">
-                <button ref={callRef} className={styles.icons}>
-                    <FontAwesomeIcon icon={faMobileScreenButton} className={styles.call}/>
+                <button ref={callRef} className="icons">
+                    <FontAwesomeIcon icon={faMobileScreenButton} className="call"/>
                 </button>
             </a>
             <a href="mailto:4faizahmed@gmail.com">
-                <button ref={mailRef} className={styles.icons}>
-                    <FontAwesomeIcon icon={faEnvelope} className={styles.mail}/>
+                <button ref={mailRef} className="icons">
+                    <FontAwesomeIcon icon={faEnvelope} className="mail"/>
                 </button>
             </a>
             <a href="https://wa.me/254705063256" target="_blank" rel="noreferrer">
-                <button ref={whatsappRef} className={styles.icons}>
-                    <FontAwesomeIcon icon={faWhatsapp} className={styles.whatsapp}/>
+                <button ref={whatsappRef} className="icons">
+                    <FontAwesomeIcon icon={faWhatsapp} className="whatsapp"/>
                 </button>
             </a>
             <a href="https://twitter.com/faizscripts" target="_blank" rel="noreferrer">
-                <button ref={twitterRef} className={styles.icons}>
-                    <FontAwesomeIcon icon={faTwitter} className={styles.twitter}/>
+                <button ref={twitterRef} className="icons">
+                    <FontAwesomeIcon icon={faTwitter} className="twitter"/>
                 </button>
             </a>
             <a href="https://www.linkedin.com/in/faiz-ahmed-5ab027170/" target="_blank" rel="noreferrer">
-                <button ref={linkedInRef} className={styles.icons}>
-                    <FontAwesomeIcon icon={faLinkedin} className={styles.linked}/>
+                <button ref={linkedInRef} className="icons">
+                    <FontAwesomeIcon icon={faLinkedin} className="linked"/>
                 </button>
             </a>
             <a href="https://github.com/faizscripts" target="_blank" rel="noreferrer">
-                <button ref={githubRef} className={styles.icons}>
-                    <FontAwesomeIcon icon={faGithub} className={styles.git}/>
+                <button ref={githubRef} className="icons">
+                    <FontAwesomeIcon icon={faGithub} className="git"/>
                 </button>
             </a>
         </div>

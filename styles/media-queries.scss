@@ -1,0 +1,76 @@
+//medium
+@media (max-width: 991.98px){
+
+  #navbar{
+    .nav-link, #theme-btn {
+      font-size: 1.2rem;
+    }
+  }
+
+  #hero{
+    #static-text{
+      font-size: 1.8rem;
+    }
+
+    #changing-text{
+      top: 40%;
+      font-size: 1.5rem;
+    }
+
+    #contact{
+      .icons{
+        font-size: 1.7rem;
+      }
+    }
+  }
+}
+
+//small
+@media (max-width: 767.98px){
+  #hero{
+    #small-column{
+      display: none;
+    }
+
+    #static-text{
+      left: 1rem;
+    }
+
+    #changing-text{
+      top: 39%;
+      left: 1rem;
+    }
+
+    #contact{
+      left: 0;
+      width: 100vw;
+      display: flex;
+      justify-content: space-evenly;
+    }
+
+    .icons{
+      margin: 0;
+      padding: 0;
+    }
+  }
+
+}
+
+//xs
+@media (max-width: 401px){
+  #hero{
+    #changing-text{
+      top: 48%;
+    }
+  }
+
+}
+
+/* CSS specific to iOS devices */
+@supports (-webkit-touch-callout: none) {
+  #hero{
+    #contact{
+      bottom: 12%;
+    }
+  }
+}

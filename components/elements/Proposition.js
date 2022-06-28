@@ -1,5 +1,4 @@
 import {useEffect, useRef} from "react";
-import styles from "../../styles/Hero.module.scss"
 import Typed from "typed.js";
 
 function Proposition() {
@@ -30,8 +29,8 @@ function Proposition() {
 
     return (
         <>
-            <h1 id={styles.staticText}>Hi there, {`I'm`} Faiz Ahmed, <br/> a full stack software developer</h1>
-            <div id={styles.changingText}>
+            <h1 id="static-text">Hi there, {`I'm`} Faiz Ahmed, <br/> a full stack software developer</h1>
+            <div id="changing-text">
                 <span ref={el} />
             </div>
         </>

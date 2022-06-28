@@ -1,6 +1,7 @@
 import Head from "next/head";
 import Header from "../components/Header";
 import '../styles/global.scss'
+import "../styles/media-queries.scss"
 import "bootstrap/dist/css/bootstrap.min.css"
 
 function MyApp({Component, pageProps}) {

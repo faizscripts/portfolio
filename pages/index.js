@@ -1,9 +1,9 @@
-import Landing from "../components/Landing";
+import Hero from "../components/Hero";
 
 function HomePage() {
     return(
         <>
-                <Landing />
+                <Hero />
         </>
     )
 }
