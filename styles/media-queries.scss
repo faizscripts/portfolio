@@ -23,6 +23,26 @@
       }
     }
   }
+
+  #heading {
+    margin-top: 4rem;
+
+    h1 {
+      font-size: 1.8rem;
+    }
+
+    h1:before {
+      width: 44px;
+    }
+
+    h1:after {
+      max-width: 108px;
+    }
+  }
+
+  .paragraph{
+    font-size: 18px;
+  }
 }
 
 //small
@@ -54,6 +74,24 @@
     }
   }
 
+  #heading {
+
+    h1 {
+      font-size: 1.5rem;
+    }
+
+    h1:before {
+      width: 36px;
+    }
+
+    h1:after {
+      max-width: 89px;
+    }
+  }
+
+  .paragraph{
+    font-size: 16px;
+  }
 }
 
 //xs
@@ -63,7 +101,6 @@
       top: 48%;
     }
   }
-
 }
 
 /* CSS specific to iOS devices */
@@ -72,5 +109,9 @@
     #contact{
       bottom: 12%;
     }
+  }
+
+  .ios{
+    margin-top: 0 !important;
   }
 }

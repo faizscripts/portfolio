@@ -1,6 +1,6 @@
 function Heading({title}) {
     return(
-        <div id="heading">
+        <div className="container ios" id="heading">
             <h1>{title}</h1>
         </div>
     )

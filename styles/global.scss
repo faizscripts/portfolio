@@ -79,6 +79,7 @@ a {
     font-weight: 700;
     font-size: 1.5rem;
     border: none;
+    color: var(--text);
   }
 }
 
@@ -161,16 +162,17 @@ a {
 
 
 #heading {
-  margin: 7rem 0 4rem 7rem;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
 
   h1 {
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     font-weight: 700;
     letter-spacing: 0;
     line-height: 1.5em;
     padding-bottom: 6px;
     position: relative;
-    text-transform: uppercase;
+    text-transform: capitalize;
   }
 
   h1:before {
@@ -179,7 +181,7 @@ a {
     left: 0;
     bottom: 0;
     height: 6px;
-    width: 72px;
+    width: 52px;
     background-color: var(--heading-underline1);
   }
 
@@ -190,7 +192,7 @@ a {
     bottom: 2px;
     height: 1px;
     width: 95%;
-    max-width: 205px;
+    max-width: 133px;
     background-color: var(--heading-underline2);
   }
 }
