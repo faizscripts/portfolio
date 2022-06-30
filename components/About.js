@@ -1,15 +1,16 @@
 function About() {
     return (
         <>
-            <h1 className="ios" className="heading">About</h1>
+            <h1 className="heading ios">About</h1>
             <p className="paragraph">
                 Hello! My name is Faiz Ahmed. I'm a full stack JavaScript software developer well conversant with React
-                and Node. My superpower is designing beautiful looking websites which have seamless user experience, efficient performance, good SEO and easy scalability.
+                and Node. My superpower is designing beautiful looking websites which have seamless user experience,
+                efficient performance, good SEO and easy scalability.
             </p>
             <p className="paragraph">
                 I would describe myself as a hybrid taught developer as I graduated with a Bachelor of Science degree in
                 Computer
-                Science from <a href="https://www.uonbi.ac.ke/" target="_blank" style={{textDecoration: "none"}}>University of Nairobi</a> in 2019 where
+                Science from University of Nairobi in 2019 where
                 I learnt the core fundamentals of what it entails
                 to be a
                 software developer. Over and above this, I have also done a fair share of self learning where I fell in

@@ -14,7 +14,6 @@ function Header() {
 
     const getDefaultTheme = () => {
         let theme
-        console.log(localStorage.getItem("theme"));
         localStorage.getItem("theme") ? theme = localStorage.getItem("theme") : theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
         loadTheme(theme)
     }

@@ -24,7 +24,7 @@
     }
   }
 
-  #heading {
+  .heading {
     margin-top: 4rem;
     font-size: 1.8rem;
 
@@ -35,6 +35,10 @@
     &:after {
       max-width: 108px;
     }
+  }
+
+  .heading2{
+    font-size: 1.5rem;
   }
 
   .paragraph{
@@ -71,18 +75,6 @@
     }
   }
 
-  #heading {
-    font-size: 1.5rem;
-
-    &:before {
-      width: 36px;
-    }
-
-    &:after {
-      max-width: 89px;
-    }
-  }
-
   .paragraph{
     font-size: 16px;
   }
@@ -92,7 +84,7 @@
 @media (max-width: 401px){
   #hero{
     #changing-text{
-      top: 48%;
+      top: 50%;
     }
   }
 }

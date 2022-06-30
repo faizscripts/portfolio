@@ -37,7 +37,7 @@ function Skills() {
                 <SkillsList>
                     <SkillsItem src="/images/skills/git.png" name="Git" />
                     <SkillsItem src="/images/skills/wordpress.png" name="Wordpress" />
-                    <SkillsItem src="/images/skills/do.png" name="Digital Ocean" />
+                    <SkillsItem src="/images/skills/azure.png" name="Azure" />
                     <SkillsItem src="/images/skills/linode.png" name="Linode" />
                     <SkillsItem src="/images/skills/metamask.png" name="Metamask" />
                 </SkillsList>
