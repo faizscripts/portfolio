@@ -1,13 +1,17 @@
 import Hero from "../components/Hero";
 import About from "../components/About";
 import Skills from "../components/elements/Skills";
+import Projects from "../components/Projects";
 
 function HomePage() {
     return (
         <>
             <Hero/>
-            <About/>
-            <Skills/>
+            <div className="container">
+                <About/>
+                <Skills/>
+                <Projects/>
+            </div>
         </>
     )
 }

@@ -26,16 +26,13 @@
 
   #heading {
     margin-top: 4rem;
+    font-size: 1.8rem;
 
-    h1 {
-      font-size: 1.8rem;
-    }
-
-    h1:before {
+    &:before {
       width: 44px;
     }
 
-    h1:after {
+    &:after {
       max-width: 108px;
     }
   }
@@ -75,16 +72,13 @@
   }
 
   #heading {
+    font-size: 1.5rem;
 
-    h1 {
-      font-size: 1.5rem;
-    }
-
-    h1:before {
+    &:before {
       width: 36px;
     }
 
-    h1:after {
+    &:after {
       max-width: 89px;
     }
   }

@@ -17,7 +17,7 @@ a {
   box-sizing: border-box;
 }
 
-// theme switcher
+
 :root {
   --background-light: #ffffff;
   --text-light: #121212;
@@ -161,21 +161,18 @@ a {
 }
 
 
-#heading {
+.heading {
   margin-top: 5rem;
   margin-bottom: 2rem;
+  font-size: 2.2rem;
+  font-weight: 700;
+  letter-spacing: 0;
+  line-height: 1.5em;
+  padding-bottom: 6px;
+  position: relative;
+  text-transform: capitalize;
 
-  h1 {
-    font-size: 2.2rem;
-    font-weight: 700;
-    letter-spacing: 0;
-    line-height: 1.5em;
-    padding-bottom: 6px;
-    position: relative;
-    text-transform: capitalize;
-  }
-
-  h1:before {
+  &:before {
     content: "";
     position: absolute;
     left: 0;
@@ -185,7 +182,7 @@ a {
     background-color: var(--heading-underline1);
   }
 
-  h1:after {
+  &:after {
     content: "";
     position: absolute;
     left: 0;
@@ -197,7 +194,36 @@ a {
   }
 }
 
-.paragraph{
+
+.heading2 {
+  font-size: 1.7rem;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+
+.paragraph {
   text-align: justify;
   font-size: 20px;
+}
+
+
+#skills {
+  .skills-list{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .skill-item {
+    object-fit: cover;
+    object-position: center center;
+    width: 124px;
+  }
+
+  .skill-name{
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+    width: 89px;
+  }
 }

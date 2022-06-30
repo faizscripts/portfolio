@@ -13,16 +13,12 @@ function Header() {
     }, [])
 
     const getDefaultTheme = () => {
-        const theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
-        setStateTheme(theme)
+        let theme
+        console.log(localStorage.getItem("theme"));
+        localStorage.getItem("theme") ? theme = localStorage.getItem("theme") : theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        loadTheme(theme)
     }
 
-    const loadTheme = (theme) => {
-        const root = document.querySelector(':root');
-        root.setAttribute('color-scheme', `${theme}`);
-        setStateTheme(theme)
-    }
-    
     const changeTheme = () => {
         let theme = stateTheme;
         let audio;
@@ -38,8 +34,16 @@ function Header() {
         loadTheme(theme);
     }
 
+    const loadTheme = (theme) => {
+        const root = document.querySelector(':root');
+        root.setAttribute('color-scheme', `${theme}`);
+        localStorage.setItem("theme", `${theme}`)
+        setStateTheme(theme)
+    }
+
+
     return (
-        <nav className={`navbar navbar-expand-lg ${stateTheme === "light" ? "navbar-light bg-light" : "navbar-dark bg-dark"}`} id="navbar">
+        <nav className={`navbar navbar-expand-lg sticky-top ${stateTheme === "light" ? "navbar-light bg-light" : "navbar-dark bg-dark"}`} id="navbar">
             <div className="container-fluid flex-lg-row-reverse">
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -51,6 +55,11 @@ function Header() {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li className="nav-item">
+                            <Link href="#">
+                                <a className="nav-link">Home</a>
+                            </Link>
+                        </li>
                         <li className="nav-item">
                             <Link href="#">
                                 <a className="nav-link">About</a>
