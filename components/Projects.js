@@ -12,7 +12,7 @@ function Projects() {
             <ProjectList />
             <div className={more ? "d-none" : "d-block"}>
                 <div className="d-flex justify-content-center mb-5">
-                    <button onClick={() => setMore(!more)} className="btn btn-outline-primary">Show more projects</button>
+                    <button onClick={() => setMore(!more)} className="btn btn-primary">Show more projects</button>
                 </div>
             </div>
             <SmallProjectsList more={more} setMore={setMore}/>

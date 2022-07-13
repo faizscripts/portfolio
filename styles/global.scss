@@ -29,6 +29,10 @@ a {
   --heading-underline2-light: #333;
   --heading-underline1-dark: #eeeeee;
   --heading-underline2-dark: #cccccc;
+  --project-details-light: #f1f1f1;
+  --project-details-dark: #2c2c2c;
+  --svg-light: invert(0%) sepia(2%) saturate(1373%) hue-rotate(357deg) brightness(106%) contrast(86%);
+  --svg-dark: invert(100%) sepia(100%) saturate(0%) hue-rotate(115deg) brightness(104%) contrast(102%);
 }
 
 
@@ -38,6 +42,8 @@ a {
     --text: var(--text-light);
     --heading-underline1: var(--heading-underline1-light);
     --heading-underline2: var(--heading-underline2-light);
+    --project-details: var(--project-details-light);
+    --svg-color: var(--svg-light)
   }
 }
 
@@ -48,6 +54,8 @@ a {
     --text: var(--text-dark);
     --heading-underline1: var(--heading-underline1-dark);
     --heading-underline2: var(--heading-underline2-dark);
+    --project-details: var(--project-details-dark);
+    --svg-color: var(--svg-dark);
   }
 }
 
@@ -57,6 +65,8 @@ a {
   --text: var(--text-light);
   --heading-underline1: var(--heading-underline1-light);
   --heading-underline2: var(--heading-underline2-light);
+  --project-details: var(--project-details-light);
+  --svg-color: var(--svg-light);
 }
 
 
@@ -65,6 +75,8 @@ a {
   --text: var(--text-dark);
   --heading-underline1: var(--heading-underline1-dark);
   --heading-underline2: var(--heading-underline2-dark);
+  --project-details: var(--project-details-dark);
+  --svg-color: var(--svg-dark);
 }
 
 
@@ -241,9 +253,13 @@ a {
   }
 
   .project-details {
-    background: #f1f1f1;
+    background: var(--project-details);
     position: relative;
     padding: 1.5rem;
+  }
+
+  .project-details-extended{
+    background: var(--project-details);
   }
   
   .project-heading{
@@ -276,6 +292,7 @@ a {
 
   .svg{
     margin-bottom: 1rem;
+    filter: var(--svg-color)
   }
 
   .svg-small{
@@ -289,6 +306,7 @@ a {
   }
 
   .small-project-item{
+    background: var(--project-details);
     @include shadow;
   }
 }

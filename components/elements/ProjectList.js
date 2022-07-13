@@ -73,7 +73,7 @@ function ProjectList() {
                         cost-effective. The system implements a voting framework that utilizes ethereum’s blockchain and smart contracts to achieve voter administration and auditable voting records. The implementation was deployed on ethereum’s test network to demonstrate usability, scalability, and efficiency.
                     </p>
                 }
-                techUsed={[faHtml5, faCss3, faBootstrap, faJs, faNode, "https://img.icons8.com/ios-filled/32/000000/solidity.png", "https://img.icons8.com/color/32/000000/metamask-logo.png"]}
+                techUsed={[faHtml5, faCss3, faBootstrap, faJs, faNode, "https://img.icons8.com/ios-filled/32/000000/solidity.png", "https://img.icons8.com/ios-filled/32/000000/metamask-logo.png"]}
                 demo="https://alpha-supplement.com"
                 sourceCode="https://github.com/faizscripts/blockchain-voting-system"
                 src={commerce}

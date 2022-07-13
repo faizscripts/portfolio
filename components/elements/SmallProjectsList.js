@@ -23,7 +23,7 @@ function SmallProjectsList({more, setMore}) {
                 <SmallProjectItem title="Video renting system" sourceCode="https://github.com/faizscripts/vidly" techUsed={[faHtml5, faCss3, faJs, faNode]} />
             </div>
             <div className="d-flex justify-content-center mb-5">
-                <button onClick={() => setMore(!more)} className="btn btn-outline-primary">Show {more ? "less" : "more"} projects</button>
+                <button onClick={() => setMore(!more)} className="btn btn-primary">Show {more ? "less" : "more"} projects</button>
             </div>
         </div>
     )

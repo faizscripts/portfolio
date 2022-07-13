@@ -1,5 +1,6 @@
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faGithub} from "@fortawesome/free-brands-svg-icons";
+import {faArrowUpRightFromSquare} from "@fortawesome/free-solid-svg-icons";
 
 function SmallProjectItem({title, sourceCode, techUsed}) {
 
@@ -31,15 +32,30 @@ function SmallProjectItem({title, sourceCode, techUsed}) {
         return svg ? "" : "tech-margin"
     }
 
+    const renderLink = () => {
+        if (title.toLowerCase().includes("wordpress")) {
+            return (
+                <a href={sourceCode} target="_blank">
+                    <button className="btn btn-outline-primary mx-2">View Project &nbsp; <FontAwesomeIcon
+                        icon={faArrowUpRightFromSquare}/></button>
+                </a>
+            )
+        }
+
+        return(
+            <a href={sourceCode} target="_blank">
+                <button className="btn btn-outline-primary mx-2">View Code &nbsp; <FontAwesomeIcon icon={faGithub} /> </button>
+            </a>
+        )
+    }
+
     return(
         <div className="col-md-4 my-3">
             <div className="card small-project-item">
                 <div className="card-body">
                     <h5 className="card-title mb-4">{title}</h5>
                     <p className={conditionalMarginForTech()}>{renderTechUsed()}</p>
-                    <a href={sourceCode} target="_blank">
-                        <button className="btn btn-primary mx-2">View Code &nbsp; <FontAwesomeIcon icon={faGithub} /> </button>
-                    </a>
+                    {renderLink()}
                 </div>
             </div>
         </div>
