@@ -1,5 +1,5 @@
-import SkillsList from "./SkillsList";
-import SkillsItem from "./SkillsItem";
+import SkillsList from "./elements/SkillsList";
+import SkillsItem from "./elements/SkillsItem";
 
 function Skills() {
     return (
@@ -38,7 +38,8 @@ function Skills() {
                     <SkillsItem src="/images/skills/git.png" name="Git" />
                     <SkillsItem src="/images/skills/wordpress.png" name="Wordpress" />
                     <SkillsItem src="/images/skills/azure.png" name="Azure" />
-                    <SkillsItem src="/images/skills/linode.png" name="Linode" />
+                    <SkillsItem src="/images/skills/do.png" name="DigitalOcean" />
+                    <SkillsItem src="/images/skills/heroku.png" name="Heroku" />
                     <SkillsItem src="/images/skills/metamask.png" name="Metamask" />
                 </SkillsList>
             </div>
