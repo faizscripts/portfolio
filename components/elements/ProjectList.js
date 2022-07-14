@@ -18,17 +18,13 @@ function ProjectList() {
                 description={
                     <>
                         <p>
-                            This is a fully functional e-commerce website that can be used for just about any business.
-                            It is
-                            fast, has good SEO and is fully responsive across all screens. It uses google maps api to
-                            calculate delivery fee and give accurate directions to the rider for efficient deliveries.
-                            For payment, I integrated daraja api which powers m-pesa, Kenya's most popular online
-                            payment system. Lastly, its integrated with google analytics and facebook pixel to boost sales.
+                            This is a fully functional e-commerce website which is fast, has good SEO and is fully responsive across all screens. It uses google maps api to
+                            calculate delivery fee and give accurate directions for efficient deliveries. The payment system is powered by daraja api which enables m-pesa, Kenya's most popular payment system. Lastly, its integrated with google analytics and facebook pixel to boost sales.
                         </p>
                         <p>
-                            At the moment, I have two variants running at real time, <a
+                            I have two variants running at real time, <a
                             href="http://alpha-supplement.com/" target="_blank">Alpha Fitness</a> which
-                            sells gym equipment and workout accessories and <a href="http://139.162.233.144/"
+                            sells gym accessories and <a href="http://139.162.233.144/"
                                                                                target="_blank">Amazon Cellular</a> which
                             sells electronics. My clients are pleased with the website and have reported a smooth
                             operation of their online businesses.
@@ -73,7 +69,7 @@ function ProjectList() {
                         cost-effective. The system implements a voting framework that utilizes ethereum’s blockchain and smart contracts to achieve voter administration and auditable voting records. The implementation was deployed on ethereum’s test network to demonstrate usability, scalability, and efficiency.
                     </p>
                 }
-                techUsed={[faHtml5, faCss3, faBootstrap, faJs, faNode, "https://img.icons8.com/ios-filled/32/000000/solidity.png", "https://img.icons8.com/ios-filled/32/000000/metamask-logo.png"]}
+                techUsed={[faHtml5, faCss3, faBootstrap, faJs, faNode, "https://img.icons8.com/ios-filled/28/000000/solidity.png", "https://img.icons8.com/ios-filled/28/000000/metamask-logo.png"]}
                 demo="https://alpha-supplement.com"
                 sourceCode="https://github.com/faizscripts/blockchain-voting-system"
                 src={commerce}

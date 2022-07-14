@@ -1,5 +1,26 @@
+//large
+@media (max-width: 1200px){
+  #projects{
+    .project-item {
+      margin: 3rem 0;
+      height: 31rem;
+    }
+
+    .project-details {
+      position: relative;
+    }
+
+    .project-preview{
+      top: 15%;
+      left: 51%;
+      width: 29rem;
+      height: 22rem;
+    }
+  }
+}
+
 //medium
-@media (max-width: 991.98px){
+@media (max-width: 992px){
 
   #navbar{
     .nav-link, #theme-btn {
@@ -44,10 +65,47 @@
   .paragraph{
     font-size: 18px;
   }
+
+  #projects{
+
+    .project-item {
+      height: 46rem;
+    }
+
+    .project-details {
+      padding: 1rem;
+    }
+
+    .tech-used{
+      bottom: 8%;
+    }
+
+    .project-links{
+      bottom: 2%;
+    }
+
+    .project-details-extended{
+      display: none;
+    }
+
+    .project-preview{
+      display: none;
+    }
+
+    .project-preview-md{
+      display: flex;
+      justify-content: center;
+    }
+
+    .project-preview-md-container{
+      width: 100%;
+      height: 20rem;
+    }
+  }
 }
 
 //small
-@media (max-width: 767.98px){
+@media (max-width: 768px){
   #hero{
     #small-column{
       display: none;
@@ -78,6 +136,24 @@
   #skills{
     .skill-name{
       margin: 0.3rem 0;
+    }
+  }
+
+  #projects{
+    .project-item {
+      height: 49rem;
+    }
+
+    .project-preview-md-container{
+      height: 13rem;
+    }
+
+    .tech-used{
+      bottom: 7%;
+    }
+
+    .big-tech{
+      font-size: 1.6rem;
     }
   }
 }

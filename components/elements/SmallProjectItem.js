@@ -9,27 +9,9 @@ function SmallProjectItem({title, sourceCode, techUsed}) {
         return techUsed.map(
             tech => {
                 i++
-                if (typeof tech === "string"){
-                    if (tech.includes(".svg")) return <img src={`/images/icons/${tech}`} alt={tech} className="svg-small mx-2" key={i} />
-
-                    if (tech.includes("https://")) return <img src={tech} alt={tech} className="svg mx-2" key={i} />
-                }
-
-                return <FontAwesomeIcon icon={tech} size="2x" className="mx-2" key={i} />
+                return <FontAwesomeIcon icon={tech} className="mx-2 small-tech" key={i} />
             }
         )
-    }
-
-    const conditionalMarginForTech = () => {
-        let svg = false
-        techUsed.forEach(
-            tech => {
-                if (typeof tech === "string") {
-                    svg = true
-                }
-            }
-        )
-        return svg ? "" : "tech-margin"
     }
 
     const renderLink = () => {
@@ -50,11 +32,11 @@ function SmallProjectItem({title, sourceCode, techUsed}) {
     }
 
     return(
-        <div className="col-md-4 my-3">
+        <div className="col-lg-4 col-md-6 my-3">
             <div className="card small-project-item">
                 <div className="card-body">
                     <h5 className="card-title mb-4">{title}</h5>
-                    <p className={conditionalMarginForTech()}>{renderTechUsed()}</p>
+                    <p>{renderTechUsed()}</p>
                     {renderLink()}
                 </div>
             </div>
