@@ -38,11 +38,10 @@
       font-size: 1.5rem;
     }
 
-    #contact{
-      .icons{
-        font-size: 1.7rem;
-      }
-    }
+  }
+
+  .icons{
+    font-size: 1.7rem;
   }
 
   .heading {
@@ -125,11 +124,6 @@
       width: 100vw;
       display: flex;
       justify-content: space-evenly;
-    }
-
-    .icons{
-      margin: 0;
-      padding: 0;
     }
   }
 
