@@ -1,6 +1,6 @@
 function About() {
     return (
-        <>
+        <div id="about">
             <h1 className="heading ios">About</h1>
             <p className="paragraph">
                 Hello! My name is Faiz Ahmed. I'm a full stack JavaScript software developer well conversant with React
@@ -30,7 +30,7 @@ function About() {
                 and work under little or no supervision, I'm currently open to opportunities in fast-paced tech
                 environments globally to utilize and enhance my well honed skills.
             </p>
-        </>
+        </div>
     )
 }
 

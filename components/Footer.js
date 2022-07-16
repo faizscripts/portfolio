@@ -1,7 +1,7 @@
 function Footer() {
     return(
-        <div>
-            Footer
+        <div id="footer">
+            &copy; {new Date().getFullYear()} | Developed by Faiz Ahmed
         </div>
     )
 }

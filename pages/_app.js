@@ -3,6 +3,7 @@ import Header from "../components/Header";
 import '../styles/global.scss'
 import "../styles/media-queries.scss"
 import "bootstrap/dist/css/bootstrap.min.css"
+import Footer from "../components/Footer";
 
 function MyApp({Component, pageProps}) {
 
@@ -15,6 +16,7 @@ function MyApp({Component, pageProps}) {
             </Head>
             <Header/>
             <Component {...pageProps} />
+            <Footer />
         </>
 )
 }
