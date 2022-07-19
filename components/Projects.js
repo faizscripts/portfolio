@@ -8,7 +8,7 @@ function Projects() {
 
     return(
         <div id="projects">
-            <h1 className="heading">Projects</h1>
+            <h1 className="heading" data-aos="fade-up">Projects</h1>
             <ProjectList />
             <div className={more ? "d-none" : "d-block"}>
                 <div className="d-flex justify-content-center mb-5">

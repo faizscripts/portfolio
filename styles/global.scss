@@ -10,7 +10,7 @@ body  {
 
   background-color: var(--background) !important;
   color: var(--text) !important;
-  transition: background-color 1.5s ease, color 1.5s ease, color 1.5s ease, color 1.5s ease;
+  transition: background-color 1.5s ease, color 1.5s ease;
 }
 
 a {
@@ -339,7 +339,7 @@ input:-webkit-autofill:focus {
 
   .svg {
     margin-bottom: 1rem;
-    filter: var(--svg-color)
+    filter: var(--svg-color);
   }
 
   .svg-small {

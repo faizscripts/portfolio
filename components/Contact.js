@@ -43,10 +43,10 @@ function Contact() {
                         <label htmlFor="email" className="form-label">Email address</label>
                         <input type="email" className="form-control" id="email" name="email" placeholder="name@example.com" value={email} onChange={e => setEmail(e.target.value)} required/>
                     </div>
-                    <div className="mb-3">
-                        <label htmlFor="message" className="form-label">Message</label>
-                        <textarea className="form-control" id="message" name="message" rows="3" value={message} onChange={e => setMessage(e.target.value)} required></textarea>
-                    </div>
+                </div>
+                <div className="mb-3">
+                    <label htmlFor="message" className="form-label">Message</label>
+                    <textarea className="form-control" id="message" name="message" rows="3" value={message} onChange={e => setMessage(e.target.value)} required></textarea>
                 </div>
                 <div className="d-flex justify-content-center my-4">
                     <button type="submit" className="btn btn-primary">{sending? "Sending..." : "Send Message"}</button>

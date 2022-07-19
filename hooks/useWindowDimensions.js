@@ -26,7 +26,7 @@ const useWindowDimensions = () => {
         }
     }, []);
 
-    return [windowDimensions]
+    return [windowDimensions, setWindowDimensions]
 }
 
 export default useWindowDimensions

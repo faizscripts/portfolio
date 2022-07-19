@@ -28,8 +28,8 @@ function Header() {
     }, [])
 
     const getDefaultTheme = () => {
-        let theme
-        localStorage.getItem("theme") ? theme = localStorage.getItem("theme") : theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        // localStorage.getItem("theme") ? theme = localStorage.getItem("theme") : theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        let theme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
         loadTheme(theme)
     }
 
@@ -51,7 +51,7 @@ function Header() {
     const loadTheme = (theme) => {
         const root = document.querySelector(':root');
         root.setAttribute('color-scheme', `${theme}`);
-        localStorage.setItem("theme", `${theme}`)
+        // localStorage.setItem("theme", `${theme}`)
         setStateTheme(theme)
     }
 

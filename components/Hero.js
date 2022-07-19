@@ -5,7 +5,7 @@ import HeroContacts from "./elements/HeroContacts";
 function Hero() {
 
     return(
-        <div className="container-fluid" >
+        <div className="container-fluid">
             <div className="row" id="hero" >
                 <div className="col-xl-9 col-md-8" id="big-column">
                     <Proposition />

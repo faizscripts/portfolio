@@ -1,4 +1,5 @@
 import {useState, useEffect} from "react";
+import useWindowDimensions from "../../hooks/useWindowDimensions";
 import Image from "next/image";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faArrowUpRightFromSquare} from "@fortawesome/free-solid-svg-icons";
@@ -6,30 +7,7 @@ import {faGithub} from "@fortawesome/free-brands-svg-icons";
 
 function ProjectItem({title, description, techUsed, demo, sourceCode, youtube, link, src}) {
 
-    const [windowDimensions, setWindowDimensions] = useState(null);
-
-    useEffect(() => {
-        function getWindowDimensions() {
-            const { innerWidth: width, innerHeight: height } = window;
-            return {
-                width,
-                height
-            };
-        }
-
-        function handleResize() {
-            setWindowDimensions(getWindowDimensions());
-        }
-
-        window.addEventListener('load', handleResize);
-
-        window.addEventListener('resize', handleResize);
-
-        return () => {
-            window.removeEventListener('load', handleResize);
-            window.removeEventListener('resize', handleResize);
-        }
-    }, []);
+    const [windowDimensions, setWindowDimensions] = useWindowDimensions();
 
     const renderTechUsed = () => {
         let i = 0
@@ -91,7 +69,7 @@ function ProjectItem({title, description, techUsed, demo, sourceCode, youtube, l
 
 
     return (
-        <div className="row project-item">
+        <div className="row project-item" data-aos="fade-up">
             <div className="col-lg-6 project-details">
                 <h3 className="project-heading">{title}</h3>
                 <div className="project-description">
