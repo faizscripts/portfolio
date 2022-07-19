@@ -41,6 +41,7 @@ function Skills() {
                     <SkillsItem src="/images/skills/do.png" name="DigitalOcean" />
                     <SkillsItem src="/images/skills/heroku.png" name="Heroku" />
                     <SkillsItem src="/images/skills/metamask.png" name="Metamask" />
+                    <SkillsItem src="/images/skills/photoshop.png" name="Photoshop" />
                 </SkillsList>
             </div>
         </div>
