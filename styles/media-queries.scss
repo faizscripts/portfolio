@@ -127,6 +127,19 @@
     }
   }
 
+  #about{
+    .about-photo-container{
+      padding: 0 7.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .about-photo{
+      position: relative;
+      width: 100%;
+      height: 14rem;
+    }
+  }
+
   #skills {
     .skill-name {
       margin: 0.3rem 0;
