@@ -30,7 +30,7 @@ function Contact() {
         <div id="contact-form">
             <h1 className="heading">Contact</h1>
             <p className="paragraph">
-                I'm open to opportunities, if you would like to connect kindly fill up the form below. However, if you
+                I&apos;m open to opportunities, if you would like to connect kindly fill up the form below. However, if you
                 just want to say hi or have a question, feel free to reach out too. Thanks!
             </p>
             <form onSubmit={onFormSubmit} >

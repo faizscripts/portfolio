@@ -17,7 +17,7 @@ function SmallProjectItem({title, sourceCode, techUsed}) {
     const renderLink = () => {
         if (title.toLowerCase().includes("wordpress")) {
             return (
-                <a href={sourceCode} target="_blank">
+                <a href={sourceCode} target="_blank" rel="noreferrer">
                     <button className="btn btn-outline-primary mx-2">View Project &nbsp; <FontAwesomeIcon
                         icon={faArrowUpRightFromSquare}/></button>
                 </a>
@@ -25,7 +25,7 @@ function SmallProjectItem({title, sourceCode, techUsed}) {
         }
 
         return(
-            <a href={sourceCode} target="_blank">
+            <a href={sourceCode} target="_blank" rel="noreferrer">
                 <button className="btn btn-outline-primary mx-2">View Code &nbsp; <FontAwesomeIcon icon={faGithub} /> </button>
             </a>
         )

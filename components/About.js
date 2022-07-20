@@ -25,7 +25,7 @@ function About() {
             <h1 className="heading" data-aos="fade-up">About</h1>
             {renderAboutPhoto()}
             <p className="paragraph" data-aos="fade-up">
-                Hello! My name is Faiz Ahmed. I'm a full stack JavaScript software developer well conversant with React
+                Hello! My name is Faiz Ahmed. I&apos;m a full stack JavaScript software developer well conversant with React
                 and Node. My superpower is designing beautiful looking websites which have seamless user experience,
                 efficient performance, good SEO and easy scalability.
             </p>
@@ -39,17 +39,17 @@ function About() {
                 love
                 with JavaScript and decided to specialize my tech stack on. I also have keen eye for UI and UX design.
                 Last but not least, I have also intermediate skills
-                with Web3 which i'm so passionate about.
+                with Web3 which i&apos;m so passionate about.
             </p>
             <p className="paragraph" data-aos="fade-up">
-                I'm currently based in Nairobi Kenya, creating digital solutions to make the world a better place. I
+                I&apos;m currently based in Nairobi Kenya, creating digital solutions to make the world a better place. I
                 also
                 enjoy networking with fellow creatives across the globe to broaden my thinking spectrum and get the ever
                 illusive third eye perspective.
             </p>
             <p className="paragraph" data-aos="fade-up">
                 As a self driven individual, an excellent team player with the ability to follow established procedures
-                and work under little or no supervision, I'm currently open to opportunities in fast-paced tech
+                and work under little or no supervision, I&apos;m currently open to opportunities in fast-paced tech
                 environments globally to utilize and enhance my well honed skills.
             </p>
             <div className="d-flex justify-content-center">

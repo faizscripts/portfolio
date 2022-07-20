@@ -38,12 +38,17 @@ function HeroContacts() {
         <div id="contact">
             <a href="tel:+254705063256">
                 <button ref={callRef} className="icons">
-                    <FontAwesomeIcon icon={faMobileScreenButton} className="call"/>
+                    <FontAwesomeIcon icon={faMobileScreenButton} className="default"/>
                 </button>
             </a>
             <a href="mailto:4faizahmed@gmail.com">
                 <button ref={mailRef} className="icons">
-                    <FontAwesomeIcon icon={faEnvelope} className="mail"/>
+                    <FontAwesomeIcon icon={faEnvelope} className="default"/>
+                </button>
+            </a>
+            <a href="https://github.com/faizscripts" target="_blank" rel="noreferrer">
+                <button ref={githubRef} className="icons">
+                    <FontAwesomeIcon icon={faGithub} className="default"/>
                 </button>
             </a>
             <a href="https://wa.me/254705063256" target="_blank" rel="noreferrer">
@@ -59,11 +64,6 @@ function HeroContacts() {
             <a href="https://www.linkedin.com/in/faiz-ahmed-5ab027170/" target="_blank" rel="noreferrer">
                 <button ref={linkedInRef} className="icons">
                     <FontAwesomeIcon icon={faLinkedin} className="linked"/>
-                </button>
-            </a>
-            <a href="https://github.com/faizscripts" target="_blank" rel="noreferrer">
-                <button ref={githubRef} className="icons">
-                    <FontAwesomeIcon icon={faGithub} className="git"/>
                 </button>
             </a>
         </div>
