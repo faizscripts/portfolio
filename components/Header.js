@@ -14,7 +14,6 @@ function Header() {
 
     const navLinksContainer = useRef()
 
-
     useEffect(() => {
         getDefaultTheme()
 

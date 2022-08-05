@@ -1,6 +1,6 @@
 import {useState, useEffect} from "react";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faArrowUp} from "@fortawesome/free-solid-svg-icons";
+import {faChevronUp} from "@fortawesome/free-solid-svg-icons";
 
 function ScrollToTop() {
     const [scrollButton, setscrollButton] = useState(false);
@@ -26,7 +26,7 @@ function ScrollToTop() {
         if (scrollButton){
             return(
                 <div className="scroll-to-top">
-                    <FontAwesomeIcon icon={faArrowUp} onClick={goToTop} className="icon-position icon-style" />
+                    <FontAwesomeIcon icon={faChevronUp} onClick={goToTop} className="icon-position icon-style" />
                 </div>
             )
         } else return null

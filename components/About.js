@@ -3,7 +3,7 @@ import Image from "next/image";
 import me from "../public/images/me.png"
 
 function About() {
-    const [windowDimensions, setWindowDimensions] =useWindowDimensions()
+    const [windowDimensions, setWindowDimensions] = useWindowDimensions()
 
     const renderAboutPhoto = () => {
         if (windowDimensions){

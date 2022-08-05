@@ -35,6 +35,8 @@ function Skills() {
             <div>
                 <h2 className="heading2" data-aos="fade-up">Other Technologies</h2>
                 <SkillsList>
+                    <SkillsItem src="/images/skills/rest.png" name="Rest API" />
+                    <SkillsItem src="/images/skills/graphql.png" name="GraphQL" />
                     <SkillsItem src="/images/skills/git.png" name="Git" />
                     <SkillsItem src="/images/skills/wordpress.png" name="Wordpress" />
                     <SkillsItem src="/images/skills/azure.png" name="Azure" />
