@@ -19,14 +19,18 @@ function MyApp({Component, pageProps}) {
         <>
             <Head>
                 <title>Faiz Ahmed</title>
-                <meta name="description" content="A fullstack software developer"/>
-                <meta name="viewport" content="width=device-width, initial-scale=1" />
+                <meta charSet="utf-8"/>
+                <meta name="viewport" content="width=device-width, initial-scale=1"/>
+                <meta name="format-detection" content="telephone=no"/>
+                <meta name="description" content="A fullstack javascript software developer proficient in React js and Node js "/>
+                <meta name="keywords" content="faiz, ahmed, fullstack, javascript, software developer, react, node"/>
+                <meta name="author" content="Faiz Ahmed"/>
             </Head>
             <Header/>
             <Component {...pageProps} />
-            <Footer />
+            <Footer/>
         </>
-)
+    )
 }
 
 export default MyApp
