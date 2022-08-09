@@ -25,8 +25,8 @@ function About() {
             <h1 className="heading" data-aos="fade-up">About</h1>
             {renderAboutPhoto()}
             <p className="paragraph" data-aos="fade-up">
-                Hello! My name is Faiz Ahmed. I&apos;m a full stack JavaScript software developer well conversant with React
-                and Node. My superpower is designing beautiful looking websites which have seamless user experience,
+                Hello! My name is Faiz Ahmed. I&apos;m a full stack JavaScript software developer well conversant with React js, Next js
+                and Node js. My superpower is designing beautiful looking websites which have seamless user experience,
                 efficient performance, good SEO and easy scalability.
             </p>
             <p className="paragraph" data-aos="fade-up">

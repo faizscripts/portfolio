@@ -1,5 +1,5 @@
 import ProjectItem from "./ProjectItem";
-import commerce from "../../public/images/projects/commerce.png";
+import portfolio from "../../public/images/projects/portfolio.png";
 import {
     faHtml5,
     faCss3,
@@ -31,7 +31,7 @@ function ProjectList() {
                     </>
                 }
                 techUsed={[faHtml5, faCss3, faSass, faBootstrap, faJs, faNode, "mongodb.svg"]}
-                demo="http://ecommerce.faizscripts.com"
+                demo="https://ecommerce.faizscripts.com"
                 sourceCode="https://github.com/faizscripts/ecommerce-demo"
                 youtube={true}
                 link="https://www.youtube.com/embed/s5dInQQx7K4"
@@ -44,7 +44,7 @@ function ProjectList() {
                     </p>
                 }
                 techUsed={[faHtml5, faCss3, faSass, faBootstrap, faJs, faNode, "mongodb.svg"]}
-                demo="http://ecommerce.faizscripts.com/admin/dashboard"
+                demo="https://ecommerce.faizscripts.com/admin/dashboard"
                 sourceCode="https://github.com/faizscripts/ecommerce-demo"
                 youtube={true}
                 link="https://www.youtube.com/embed/La23zzDlVys"
@@ -59,7 +59,7 @@ function ProjectList() {
                 techUsed={[faHtml5, faCss3, faSass, faBootstrap, faJs, faReact, "next.svg"]}
                 demo="#"
                 sourceCode="https://github.com/faizscripts/portfolio"
-                src={commerce}
+                src={portfolio}
             />
             <ProjectItem
                 title="Blockchain voting system"
