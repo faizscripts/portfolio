@@ -53,7 +53,7 @@ function About() {
                 environments globally to utilize and enhance my well honed skills.
             </p>
             <div className="d-flex justify-content-center">
-                <a href="/CV.pdf" className="btn btn-primary mt-4" data-aos="fade-up">Download CV</a>
+                <a href="/FaizCV.pdf" className="btn btn-primary mt-4" data-aos="fade-up">Download CV</a>
             </div>
         </div>
     )
