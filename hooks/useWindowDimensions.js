@@ -12,17 +12,17 @@ const useWindowDimensions = () => {
             };
         }
 
-        function handleResize() {
+        function fetchDimensions() {
             setWindowDimensions(getWindowDimensions());
         }
 
-        window.addEventListener('load', handleResize);
+        window.addEventListener('load', fetchDimensions);
 
-        window.addEventListener('resize', handleResize);
+        window.addEventListener('resize', fetchDimensions);
 
         return () => {
-            window.removeEventListener('load', handleResize);
-            window.removeEventListener('resize', handleResize);
+            window.removeEventListener('load', fetchDimensions);
+            window.removeEventListener('resize', fetchDimensions);
         }
     }, []);
 
