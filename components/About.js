@@ -1,9 +1,9 @@
 import useWindowDimensions from "../hooks/useWindowDimensions";
 import Image from "next/image";
-import me from "../public/images/me.png"
+import me from "../public/images/me.webp"
 
 function About() {
-    const [windowDimensions, setWindowDimensions] = useWindowDimensions()
+    const [windowDimensions] = useWindowDimensions()
 
     const renderAboutPhoto = () => {
         if (windowDimensions){
@@ -17,7 +17,7 @@ function About() {
                     </div>
                 )
             } else return null
-        }
+        } else return null
     }
 
     return (

@@ -3,10 +3,12 @@ import Image from "next/image";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faArrowUpRightFromSquare} from "@fortawesome/free-solid-svg-icons";
 import {faGithub} from "@fortawesome/free-brands-svg-icons";
+import LiteYouTubeEmbed from 'react-lite-youtube-embed';
+import 'react-lite-youtube-embed/dist/LiteYouTubeEmbed.css'
 
-function ProjectItem({title, description, techUsed, demo, sourceCode, youtube, link, src}) {
+function ProjectItem({title, description, techUsed, demo, sourceCode, youtube, videoId, src}) {
 
-    const [windowDimensions, setWindowDimensions] = useWindowDimensions();
+    const [windowDimensions] = useWindowDimensions();
 
     const renderTechUsed = () => {
         let i = 0
@@ -30,10 +32,10 @@ function ProjectItem({title, description, techUsed, demo, sourceCode, youtube, l
             if (width > 992){
                 if (youtube) {
                     return (
-                        <iframe src={link} style={{height: "inherit", width: "inherit"}} title="YouTube video player"
-                                frameBorder="0"
-                                allow="accelerometer; autoplay;clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                allowFullScreen></iframe>
+                        <div>
+                            <LiteYouTubeEmbed id={videoId} aspectHeight="11" title="YouTube Embed" />
+                        </div>
+
                     )
                 } else {
                     return <Image src={src} alt={src} placeholder="blur" layout="fill"/>
@@ -51,10 +53,7 @@ function ProjectItem({title, description, techUsed, demo, sourceCode, youtube, l
             if (width < 992){
                 if (youtube) {
                     return (
-                        <iframe src={link} style={{height: "inherit", width: "inherit"}} title="YouTube video player"
-                                frameBorder="0"
-                                allow="accelerometer; autoplay;clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                allowFullScreen></iframe>
+                        <LiteYouTubeEmbed id={videoId}  title="YouTube Embed" />
                     )
                 } else {
                     return <Image src={src} alt={src} placeholder="blur"/>
@@ -70,7 +69,7 @@ function ProjectItem({title, description, techUsed, demo, sourceCode, youtube, l
     return (
         <div className="row project-item" data-aos="fade-up">
             <div className="col-lg-6 project-details">
-                <h3 className="project-heading">{title}</h3>
+                <h2 className="project-heading">{title}</h2>
                 <div className="project-description">
                     {description}
                 </div>

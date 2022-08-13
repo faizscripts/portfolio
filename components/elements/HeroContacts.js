@@ -37,32 +37,32 @@ function HeroContacts() {
     return (
         <div id="contact">
             <a href="tel:+254705063256">
-                <button ref={callRef} className="icons">
+                <button ref={callRef} className="icons" aria-label="Call">
                     <FontAwesomeIcon icon={faMobileScreenButton} className="default"/>
                 </button>
             </a>
             <a href="mailto:4faizahmed@gmail.com">
-                <button ref={mailRef} className="icons">
+                <button ref={mailRef} className="icons" aria-label="Email">
                     <FontAwesomeIcon icon={faEnvelope} className="default"/>
                 </button>
             </a>
             <a href="https://github.com/faizscripts" target="_blank" rel="noreferrer">
-                <button ref={githubRef} className="icons">
+                <button ref={githubRef} className="icons" aria-label="GitHub">
                     <FontAwesomeIcon icon={faGithub} className="default"/>
                 </button>
             </a>
             <a href="https://wa.me/254705063256" target="_blank" rel="noreferrer">
-                <button ref={whatsappRef} className="icons">
+                <button ref={whatsappRef} className="icons" aria-label="Whatsapp">
                     <FontAwesomeIcon icon={faWhatsapp} className="whatsapp"/>
                 </button>
             </a>
             <a href="https://twitter.com/faizscripts" target="_blank" rel="noreferrer">
-                <button ref={twitterRef} className="icons">
+                <button ref={twitterRef} className="icons" aria-label="Twitter">
                     <FontAwesomeIcon icon={faTwitter} className="twitter"/>
                 </button>
             </a>
             <a href="https://www.linkedin.com/in/faiz-ahmed-5ab027170/" target="_blank" rel="noreferrer">
-                <button ref={linkedInRef} className="icons">
+                <button ref={linkedInRef} className="icons" aria-label="LinkedIn">
                     <FontAwesomeIcon icon={faLinkedin} className="linked"/>
                 </button>
             </a>

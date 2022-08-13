@@ -12,7 +12,7 @@ function Hero() {
             const {width} = windowDimensions
             if (width>= 768){
                 return(
-                    <div className=" col-md-4" id="small-column">
+                    <div className="col-md-4" id="small-column">
                         <MyImage />
                     </div>
                 )
@@ -23,7 +23,7 @@ function Hero() {
     return(
         <div className="container-fluid">
             <div className="row" id="hero" >
-                <div className=" col-md-8" id="big-column">
+                <div className="col-md-8" id="big-column">
                     <Proposition />
                     <HeroContacts />
                 </div>

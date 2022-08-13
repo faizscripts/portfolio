@@ -80,7 +80,7 @@ function Header() {
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
-                <button className="btn nav-item" id="theme-btn" onClick={changeTheme}>
+                <button className="btn nav-item" id="theme-btn" onClick={changeTheme} aria-label="Theme switcher">
                     <FontAwesomeIcon icon={stateTheme === "light" ? faMoon : faSun }/>
                 </button>
                 <div ref={navLinksContainer} className="collapse navbar-collapse" id="navbarSupportedContent">

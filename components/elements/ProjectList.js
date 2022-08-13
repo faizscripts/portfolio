@@ -1,5 +1,5 @@
 import ProjectItem from "./ProjectItem";
-import portfolio from "../../public/images/projects/portfolio.png";
+import portfolio from "../../public/images/projects/portfolio.webp";
 import {
     faHtml5,
     faCss3,
@@ -34,7 +34,7 @@ function ProjectList() {
                 demo="https://ecommerce.faizscripts.com"
                 sourceCode="https://github.com/faizscripts/ecommerce-demo"
                 youtube={true}
-                link="https://www.youtube.com/embed/s5dInQQx7K4"
+                videoId="s5dInQQx7K4"
             />
             <ProjectItem
                 title="CMS for my e-commerce website with POS"
@@ -47,7 +47,7 @@ function ProjectList() {
                 demo="https://ecommerce.faizscripts.com/admin/dashboard"
                 sourceCode="https://github.com/faizscripts/ecommerce-demo"
                 youtube={true}
-                link="https://www.youtube.com/embed/La23zzDlVys"
+                videoId="La23zzDlVys"
             />
             <ProjectItem
                 title="My portfolio"
@@ -73,7 +73,7 @@ function ProjectList() {
                 demo="https://youtu.be/XRHbl3DXabE?t=751"
                 sourceCode="https://github.com/faizscripts/blockchain-voting-system"
                 youtube={true}
-                link="https://www.youtube.com/embed/XRHbl3DXabE"
+                videoId="XRHbl3DXabE"
             />
 
         </>
