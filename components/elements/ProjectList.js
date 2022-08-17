@@ -24,7 +24,7 @@ function ProjectList() {
                         <p>
                             I have two variants running at real time, <a
                             href="http://alpha-supplement.com/" target="_blank" rel="noreferrer">Alpha Fitness</a> which
-                            sells gym accessories and <a href="http://139.162.233.144/" target="_blank" rel="noreferrer">Amazon Cellular</a> which
+                            sells gym accessories and <a href="https://amazon-cellular.co.ke" target="_blank" rel="noreferrer">Amazon Cellular</a> which
                             sells electronics. My clients are pleased with the website and have reported a smooth
                             operation of their online businesses.
                         </p>
