@@ -22,8 +22,8 @@ function ProjectList() {
                             calculate delivery fee and give accurate directions for efficient deliveries. The payment system is powered by daraja api which enables m-pesa, Kenya&apos;s most popular payment system. Lastly, it&apos;s integrated with google analytics and facebook pixel to boost sales.
                         </p>
                         <p>
-                            I have two variants running at real time, <a
-                            href="http://alpha-supplement.com/" target="_blank" rel="noreferrer">Alpha Fitness</a> which
+                            I have two variants running in real time, <a
+                            href="https://alpha-supplement.com/" target="_blank" rel="noreferrer">Alpha Fitness</a> which
                             sells gym accessories and <a href="https://amazon-cellular.co.ke" target="_blank" rel="noreferrer">Amazon Cellular</a> which
                             sells electronics. My clients are pleased with the website and have reported a smooth
                             operation of their online businesses.

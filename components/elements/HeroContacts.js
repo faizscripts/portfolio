@@ -61,7 +61,7 @@ function HeroContacts() {
                     <FontAwesomeIcon icon={faTwitter} className="twitter"/>
                 </button>
             </a>
-            <a href="https://www.linkedin.com/in/faiz-ahmed-5ab027170/" target="_blank" rel="noreferrer">
+            <a href="https://www.linkedin.com/in/faizscripts/" target="_blank" rel="noreferrer">
                 <button ref={linkedInRef} className="icons" aria-label="LinkedIn">
                     <FontAwesomeIcon icon={faLinkedin} className="linked"/>
                 </button>
