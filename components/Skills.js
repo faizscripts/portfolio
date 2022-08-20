@@ -16,9 +16,10 @@ function Skills() {
             <div>
                 <h2 className="heading2" data-aos="fade-up">Frameworks & Libraries</h2>
                 <SkillsList>
-                    <SkillsItem src="/images/skills/react.webp" name="React JS" />
-                    <SkillsItem src="/images/skills/next.webp" name="Next JS" />
-                    <SkillsItem src="/images/skills/node.webp" name="Node JS" />
+                    <SkillsItem src="/images/skills/react.webp" name="React.js" />
+                    <SkillsItem src="/images/skills/next.webp" name="Next.js" />
+                    <SkillsItem src="/images/skills/redux.webp" name="Redux" />
+                    <SkillsItem src="/images/skills/node.webp" name="Node.js" />
                     <SkillsItem src="/images/skills/bootstrap.webp" name="Bootstrap" />
                     <SkillsItem src="/images/skills/sass.webp" name="Sass" />
                 </SkillsList>
@@ -37,6 +38,7 @@ function Skills() {
                     <SkillsItem src="/images/skills/rest.webp" name="Rest API" />
                     <SkillsItem src="/images/skills/git.webp" name="Git" />
                     <SkillsItem src="/images/skills/do.webp" name="DigitalOcean" />
+                    <SkillsItem src="/images/skills/nginx.webp" name="Nginx" />
                     <SkillsItem src="/images/skills/azure.webp" name="Azure" />
                     <SkillsItem src="/images/skills/wordpress.webp" name="Wordpress" />
                 </SkillsList>
