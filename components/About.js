@@ -25,7 +25,7 @@ function About() {
             <h1 className="heading" data-aos="fade-up">About</h1>
             {renderAboutPhoto()}
             <p className="paragraph" data-aos="fade-up">
-                Hello! My name is Faiz Ahmed. I&apos;m a full stack JavaScript software developer well conversant with React.js, Next.js, Redux, and Node.js. My superpower is designing beautiful looking websites which have seamless user experience,
+                Hello! My name is Faiz Ahmed. I&apos;m a full stack software developer well conversant with Angular, React.js, Next.js, and Node.js. My superpower is designing beautiful looking websites which have seamless user experience,
                 efficient performance, good SEO and easy scalability.
             </p>
             <p className="paragraph" data-aos="fade-up">
@@ -41,7 +41,7 @@ function About() {
                 with Web3 which i&apos;m so passionate about.
             </p>
             <p className="paragraph" data-aos="fade-up">
-                I&apos;m currently based in Nairobi Kenya, creating digital solutions to make the world a better place. I
+                I&apos;m currently based in Kenya, creating digital solutions to make the world a better place. I
                 also
                 enjoy networking with fellow creatives across the globe to broaden my thinking spectrum and get the ever
                 illusive third eye perspective.
@@ -52,7 +52,7 @@ function About() {
                 environments globally to utilize and enhance my well honed skills.
             </p>
             <div className="d-flex justify-content-center">
-                <a href="/FaizCV.pdf" className="btn btn-primary mt-4" data-aos="fade-up">Download CV</a>
+                <a href="/FaizAhmedCV.pdf" className="btn btn-primary mt-4" data-aos="fade-up">Download CV</a>
             </div>
         </div>
     )

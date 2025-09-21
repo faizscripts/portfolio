@@ -3,7 +3,7 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faMobileScreenButton} from "@fortawesome/free-solid-svg-icons";
 import {faEnvelope} from "@fortawesome/free-solid-svg-icons";
 import {faWhatsapp} from "@fortawesome/free-brands-svg-icons";
-import {faTwitter} from "@fortawesome/free-brands-svg-icons";
+import {faXTwitter} from "@fortawesome/free-brands-svg-icons";
 import {faLinkedin} from "@fortawesome/free-brands-svg-icons";
 import {faGithub} from "@fortawesome/free-brands-svg-icons";
 
@@ -29,7 +29,7 @@ function HeroContacts() {
         setToolTip(callRef, "Call")
         setToolTip(mailRef, "Email")
         setToolTip(whatsappRef, "Whatsapp")
-        setToolTip(twitterRef, "Twitter")
+        setToolTip(twitterRef, "X")
         setToolTip(linkedInRef, "LinkedIn")
         setToolTip(githubRef, "GitHub")
     })
@@ -56,9 +56,9 @@ function HeroContacts() {
                     <FontAwesomeIcon icon={faWhatsapp} className="whatsapp"/>
                 </button>
             </a>
-            <a href="https://twitter.com/faizscripts" target="_blank" rel="noreferrer">
-                <button ref={twitterRef} className="icons" aria-label="Twitter">
-                    <FontAwesomeIcon icon={faTwitter} className="twitter"/>
+            <a href="https://x.com/faizscripts" target="_blank" rel="noreferrer">
+                <button ref={twitterRef} className="icons" aria-label="X">
+                    <FontAwesomeIcon icon={faXTwitter} className="default"/>
                 </button>
             </a>
             <a href="https://www.linkedin.com/in/faizscripts/" target="_blank" rel="noreferrer">
