@@ -25,33 +25,15 @@ function About() {
             <h1 className="heading" data-aos="fade-up">About</h1>
             {renderAboutPhoto()}
             <p className="paragraph" data-aos="fade-up">
-                Hello! My name is Faiz Ahmed. I&apos;m a full stack software developer well conversant with Angular, React.js, Next.js, and Node.js. My superpower is designing beautiful looking websites which have seamless user experience,
-                efficient performance, good SEO and easy scalability.
+                Hi, I’m Faiz Ahmed — a full stack developer specializing in Angular, React.js, Next.js, and Node.js. I build fast, scalable, and user-friendly web applications with a strong focus on clean design and seamless UX.
             </p>
             <p className="paragraph" data-aos="fade-up">
-                I would describe myself as a hybrid taught developer as I graduated with a Bachelor of Science degree in
-                Computer
-                Science from University of Nairobi in 2019 where
-                I learnt the core fundamentals of what it entails
-                to be a
-                software developer. Over and above this, I have also done a fair share of self learning where I fell in
-                love
-                with JavaScript and decided to specialize my tech stack on. I also have keen eye for UI and UX design.
-                Last but not least, I have also intermediate skills
-                with Web3 which i&apos;m so passionate about.
+                With a background in Computer Science and a passion for self-driven learning, I combine solid fundamentals with a love for JavaScript, UI/UX, and emerging tech like Web3.
             </p>
             <p className="paragraph" data-aos="fade-up">
-                I&apos;m currently based in Kenya, creating digital solutions to make the world a better place. I
-                also
-                enjoy networking with fellow creatives across the globe to broaden my thinking spectrum and get the ever
-                illusive third eye perspective.
+                Based in Kenya, I’m open to global opportunities where I can contribute, collaborate, and create impactful digital solutions.
             </p>
-            <p className="paragraph" data-aos="fade-up">
-                As a self driven individual, an excellent team player with the ability to follow established procedures
-                and work under little or no supervision, I&apos;m currently open to opportunities in fast-paced tech
-                environments globally to utilize and enhance my well honed skills.
-            </p>
-            <div className="d-flex justify-content-center">
+            <div className="d-flex justify-content-center" data-aos="fade-up">
                 <a href="/FaizAhmedCV.pdf" className="btn btn-primary mt-4" data-aos="fade-up">Download CV</a>
             </div>
         </div>
