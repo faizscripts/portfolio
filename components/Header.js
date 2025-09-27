@@ -86,28 +86,28 @@ function Header() {
                 <div ref={navLinksContainer} className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav mx-auto mb-2 mb-lg-0">
                         <li className="nav-item">
-                            <Link href="#">
-                                <a onClick={collapseNav} className="nav-link">Home</a>
+                            <Link href="#" onClick={collapseNav} className="nav-link">
+                                Home
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link href="#about">
-                                <a onClick={collapseNav} className="nav-link">About</a>
+                            <Link href="#about" onClick={collapseNav} className="nav-link">
+                                About
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link href="#skills">
-                                <a onClick={collapseNav} className="nav-link">Skills</a>
+                            <Link href="#skills" onClick={collapseNav} className="nav-link">
+                                Skills
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link href="#projects">
-                                <a onClick={collapseNav} className="nav-link">Projects</a>
+                            <Link href="#projects" onClick={collapseNav} className="nav-link">
+                                Projects
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <Link href="#contact-form">
-                                <a onClick={collapseNav} className="nav-link">Contact</a>
+                            <Link href="#contact-form" onClick={collapseNav} className="nav-link">
+                                Contact
                             </Link>
                         </li>
                     </ul>

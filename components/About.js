@@ -12,7 +12,7 @@ function About() {
                 return(
                     <div className="about-photo-container">
                         <div className="about-photo" data-aos="fade-up">
-                            <Image src={me} alt={me} layout="fill" placeholder="blur"  />
+                            <Image src={me} alt={me} placeholder="blur" fill  />
                         </div>
                     </div>
                 )

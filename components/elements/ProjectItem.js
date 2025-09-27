@@ -38,7 +38,7 @@ function ProjectItem({title, description, techUsed, demo, sourceCode, youtube, v
 
                     )
                 } else {
-                    return <Image src={src} alt={src} placeholder="blur" layout="fill"/>
+                    return <Image src={src} alt={src} placeholder="blur" fill />
                 }
             }
 
@@ -56,7 +56,7 @@ function ProjectItem({title, description, techUsed, demo, sourceCode, youtube, v
                         <LiteYouTubeEmbed id={videoId}  title="YouTube Embed" />
                     )
                 } else {
-                    return <Image src={src} alt={src} placeholder="blur"/>
+                    return <Image src={src} alt={src} placeholder="blur" fill />
                 }
             }
 
