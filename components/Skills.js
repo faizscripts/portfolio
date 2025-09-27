@@ -30,8 +30,6 @@ function Skills() {
                     <SkillsItem src="/images/skills/figma.webp" name="Figma" />
                     <SkillsItem src="/images/skills/jira.webp" name="Jira" />
                     <SkillsItem src="/images/skills/rest.webp" name="Rest API" />
-                    <SkillsItem src="/images/skills/webpack.webp" name="Webpack" />
-                    <SkillsItem src="/images/skills/vite.webp" name="Vite" />
                 </SkillsList>
             </div>
         </div>
