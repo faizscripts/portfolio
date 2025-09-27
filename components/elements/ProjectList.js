@@ -3,12 +3,10 @@ import paypoint from "../../public/images/projects/paypoint.webp";
 import tourguide from "../../public/images/projects/tourguide.webp";
 import {
     faHtml5,
-    faCss3,
     faJs,
     faSass,
     faBootstrap,
     faNode,
-    faReact
 } from "@fortawesome/free-brands-svg-icons";
 
 function ProjectList() {
@@ -21,7 +19,7 @@ function ProjectList() {
                         Tour Guide is a tourist advisor website that provides travelers with reliable and up-to-date information about destinations, attractions, accommodations, dining, and local experiences. It offers personalized recommendations, reviews, and interactive maps to help users plan trips with ease and discover hidden gems for a memorable travel experience.
                     </p>
                 }
-                techUsed={[faHtml5, faCss3, faSass, faBootstrap, faJs, faReact, "next.svg"]}
+                techUsed={["next.svg", faHtml5, faSass, faBootstrap, faJs ]}
                 demo="https://faizscripts-tour-guide.vercel.app/"
                 sourceCode="https://github.com/faizscripts/tour-guide"
                 src={tourguide}
@@ -33,7 +31,7 @@ function ProjectList() {
                         Paypoint is a simple MPESA concept platform that lets registered users send money to each other with ease. You can top up your wallet, transfer funds instantly, and withdraw your balance whenever you need, either through agents or straight back to your MPESA account.
                     </p>
                 }
-                techUsed={[faHtml5, faCss3, faSass, faBootstrap, faJs, faReact, "next.svg"]}
+                techUsed={["next.svg", faHtml5, faSass, faBootstrap, faJs]}
                 demo="https://faizscripts-paypoint.vercel.app/"
                 sourceCode="https://github.com/faizscripts/paypoint"
                 src={paypoint}
@@ -48,7 +46,7 @@ function ProjectList() {
                         </p>
                     </>
                 }
-                techUsed={[faHtml5, faCss3, faSass, faBootstrap, faJs, faNode, "mongodb.svg"]}
+                techUsed={[faHtml5, faSass, faBootstrap, faJs, faNode, "mongodb.svg"]}
                 demo="https://www.youtube.com/watch?v=La23zzDlVys&t=1418s"
                 sourceCode="https://github.com/faizscripts/ecommerce-demo"
                 youtube={true}
@@ -62,7 +60,7 @@ function ProjectList() {
                         cost-effective. The system implements a voting framework that utilizes ethereum’s blockchain and smart contracts to achieve voter administration and auditable voting records. The implementation was deployed on ethereum’s test network to demonstrate usability, scalability, and efficiency.
                     </p>
                 }
-                techUsed={[faHtml5, faCss3, faBootstrap, faJs, faNode, "https://img.icons8.com/ios-filled/28/000000/solidity.png", "https://img.icons8.com/ios-filled/28/000000/metamask-logo.png"]}
+                techUsed={[faHtml5, faBootstrap, faJs, "https://img.icons8.com/ios-filled/28/000000/solidity.png", "https://img.icons8.com/ios-filled/28/000000/metamask-logo.png"]}
                 demo="https://youtu.be/XRHbl3DXabE?t=751"
                 sourceCode="https://github.com/faizscripts/blockchain-voting-system"
                 youtube={true}
