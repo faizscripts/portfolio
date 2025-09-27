@@ -7,6 +7,7 @@ import "bootstrap/dist/css/bootstrap.min.css"
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Footer from "../components/Footer";
+import { Analytics } from '@vercel/analytics/next';
 
 function MyApp({Component, pageProps}) {
     useEffect(() => {
@@ -28,6 +29,7 @@ function MyApp({Component, pageProps}) {
             </Head>
             <Header/>
             <Component {...pageProps} />
+            <Analytics />
             <Footer/>
         </>
     )
