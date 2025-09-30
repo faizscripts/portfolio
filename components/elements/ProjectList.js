@@ -1,4 +1,5 @@
 import ProjectItem from "./ProjectItem";
+import chatty from "../../public/images/projects/chatty.webp";
 import paypoint from "../../public/images/projects/paypoint.webp";
 import tourguide from "../../public/images/projects/tourguide.webp";
 import {
@@ -7,11 +8,24 @@ import {
     faSass,
     faBootstrap,
     faNode,
-} from "@fortawesome/free-brands-svg-icons";
+    faReact,
+} from '@fortawesome/free-brands-svg-icons';
 
 function ProjectList() {
     return (
         <>
+            <ProjectItem
+                title="Chatty"
+                description={
+                    <p>
+                        AI Chat Assistant using React, Vite, and Vercel Serverless Functions. Features real-time response streaming with the Google Gemini API. 🚀
+                    </p>
+                }
+                techUsed={[faReact, faHtml5, faSass, faBootstrap, faJs ]}
+                demo="https://faizscripts-chatty.vercel.app/"
+                sourceCode="https://github.com/faizscripts/my-open-ai"
+                src={chatty}
+            />
             <ProjectItem
                 title="Tour Guide"
                 description={
@@ -52,21 +66,6 @@ function ProjectList() {
                 youtube={true}
                 videoId="s5dInQQx7K4"
             />
-            <ProjectItem
-                title="Blockchain voting system"
-                description={
-                    <p>
-                        A blockchain-based voting system that preserves voter privacy and increases accessibility, while keeping the voting system transparent, secure, and
-                        cost-effective. The system implements a voting framework that utilizes ethereum’s blockchain and smart contracts to achieve voter administration and auditable voting records. The implementation was deployed on ethereum’s test network to demonstrate usability, scalability, and efficiency.
-                    </p>
-                }
-                techUsed={[faHtml5, faBootstrap, faJs, "https://img.icons8.com/ios-filled/28/000000/solidity.png", "https://img.icons8.com/ios-filled/28/000000/metamask-logo.png"]}
-                demo="https://youtu.be/XRHbl3DXabE?t=751"
-                sourceCode="https://github.com/faizscripts/blockchain-voting-system"
-                youtube={true}
-                videoId="XRHbl3DXabE"
-            />
-
         </>
     )
 }
