@@ -19,8 +19,16 @@ function Skills() {
                     <SkillsItem src="/images/skills/react.webp" name="React.js" />
                     <SkillsItem src="/images/skills/next.webp" name="Next.js" />
                     <SkillsItem src="/images/skills/node.webp" name="Node.js" />
-                    <SkillsItem src="/images/skills/redux.webp" name="Redux" />
-                    <SkillsItem src="/images/skills/tailwind.webp" name="Tailwind" />
+                    <SkillsItem src="/images/skills/express.webp" name="Express" />
+                    <SkillsItem src="/images/skills/nest.webp" name="NestJS" />
+                </SkillsList>
+            </div>
+            <div>
+                <h2 className="heading2" data-aos="fade-up">Databases</h2>
+                <SkillsList>
+                    <SkillsItem src="/images/skills/mongodb.webp" name="MongoDB" />
+                    <SkillsItem src="/images/skills/postgres.webp" name="PostgreSQL" />
+                    <SkillsItem src="/images/skills/mysql.webp" name="MySQL" />
                 </SkillsList>
             </div>
             <div>

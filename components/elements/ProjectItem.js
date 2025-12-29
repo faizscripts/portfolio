@@ -16,7 +16,7 @@ function ProjectItem({title, description, techUsed, demo, sourceCode, youtube, v
             tech => {
                 i++
                 if (typeof tech === "string") {
-                    if (tech.includes(".svg")) return <img src={`/images/icons/${tech}`} alt={tech} className="svg mx-2 big-tech" key={i}/>
+                    if (tech.includes(".svg")) return <img src={`/images/icons/${tech}`} alt={tech} className="svg svg-small mx-2 big-tech" key={i}/>
 
                     if (tech.includes("https://")) return <img src={tech} alt={tech} className="svg mx-2 big-tech" key={i} />
                 }

@@ -1,15 +1,9 @@
 import ProjectItem from "./ProjectItem";
 import chatty from "../../public/images/projects/chatty.webp";
 import paypoint from "../../public/images/projects/paypoint.webp";
+import pc from "../../public/images/projects/pc.webp";
 import tourguide from "../../public/images/projects/tourguide.webp";
-import {
-    faHtml5,
-    faJs,
-    faSass,
-    faBootstrap,
-    faNode,
-    faReact,
-} from '@fortawesome/free-brands-svg-icons';
+import {faSass, faBootstrap, faReact,} from '@fortawesome/free-brands-svg-icons';
 
 function ProjectList() {
     return (
@@ -21,10 +15,22 @@ function ProjectList() {
                         AI Chat Assistant using React, Vite, and Vercel Serverless Functions. Features real-time response streaming with the Google Gemini API. 🚀
                     </p>
                 }
-                techUsed={[faReact, faHtml5, faSass, faBootstrap, faJs ]}
+                techUsed={[faReact, "tailwind.svg", faSass ]}
                 demo="https://faizscripts-chatty.vercel.app/"
                 sourceCode="https://github.com/faizscripts/my-open-ai"
                 src={chatty}
+            />
+            <ProjectItem
+                title="Project Catalyst"
+                description={
+                    <p>
+                        A full-stack web application for tracking company initiatives and their related tasks. It enables users to create initiatives, add tasks, and monitor overall progress in real time.
+                    </p>
+                }
+                techUsed={["next.svg", "nest.svg", "tailwind.svg", faSass ]}
+                demo="https://faizscripts-pc.vercel.app/"
+                sourceCode="https://github.com/faizscripts/project-catalyst"
+                src={pc}
             />
             <ProjectItem
                 title="Tour Guide"
@@ -33,7 +39,7 @@ function ProjectList() {
                         Tour Guide is a tourist advisor website that provides travelers with reliable and up-to-date information about destinations, attractions, accommodations, dining, and local experiences. It offers personalized recommendations, reviews, and interactive maps to help users plan trips with ease and discover hidden gems for a memorable travel experience.
                     </p>
                 }
-                techUsed={["next.svg", faHtml5, faSass, faBootstrap, faJs ]}
+                techUsed={["next.svg", faSass, faBootstrap ]}
                 demo="https://faizscripts-tour-guide.vercel.app/"
                 sourceCode="https://github.com/faizscripts/tour-guide"
                 src={tourguide}
@@ -45,7 +51,7 @@ function ProjectList() {
                         Paypoint is a simple MPESA concept platform that lets registered users send money to each other with ease. You can top up your wallet, transfer funds instantly, and withdraw your balance whenever you need, either through agents or straight back to your MPESA account.
                     </p>
                 }
-                techUsed={["next.svg", faHtml5, faSass, faBootstrap, faJs]}
+                techUsed={["next.svg", faSass, faBootstrap]}
                 demo="https://faizscripts-paypoint.vercel.app/"
                 sourceCode="https://github.com/faizscripts/paypoint"
                 src={paypoint}
@@ -60,7 +66,7 @@ function ProjectList() {
                         </p>
                     </>
                 }
-                techUsed={[faHtml5, faSass, faBootstrap, faJs, faNode, "mongodb.svg"]}
+                techUsed={["express.svg", "mongodb.svg", faSass, faBootstrap]}
                 demo="https://www.youtube.com/watch?v=La23zzDlVys&t=1418s"
                 sourceCode="https://github.com/faizscripts/ecommerce-demo"
                 youtube={true}

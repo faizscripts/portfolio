@@ -25,7 +25,7 @@ function About() {
             <h1 className="heading" data-aos="fade-up">About</h1>
             {renderAboutPhoto()}
             <p className="paragraph" data-aos="fade-up">
-                Hi, I’m Faiz Ahmed — a full stack developer specializing in Angular, React.js, Next.js, and Node.js. I build fast, scalable, and user-friendly web applications with a strong focus on clean design and seamless UX.
+                Hi, I’m Faiz Ahmed, a full stack developer specializing in Angular, React.js, and Next.js backed by Node.js, Express and NestJS. I build fast, scalable, and user-friendly web applications with a strong focus on clean design and seamless UX.
             </p>
             <p className="paragraph" data-aos="fade-up">
                 With a background in Computer Science and a passion for self-driven learning, I combine solid fundamentals with a love for JavaScript, AI, UI/UX, and emerging tech like Web3.
